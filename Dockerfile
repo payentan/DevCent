@@ -1,3 +1,4 @@
 FROM centos
 MAINTAINER tpe
-RUN yum install iproute -y
+RUN yum install -y iproute2
+RUN yum install -y gcc
