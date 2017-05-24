@@ -8,3 +8,4 @@ RUN yum install -y make
 RUN yum install -y svn
 RUN yum install -y vim
 RUN yum clean all
+RUN curl http://www.baidu.com
